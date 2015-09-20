@@ -7,15 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
+        <!--<activity
             android:name=".ui.activities.SecondActivity"
             android:label="@string/title_activity_second" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ui.activities.HomeActivity" />
-        </activity>
+        </activity>-->
         <activity
-            android:name=".ui.activities.HomeActivity"
+            android:name=".ui.activities.SecondActivity"
             android:label="@string/title_activity_home" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
